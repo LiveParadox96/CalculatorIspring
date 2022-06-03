@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(119, 113, 113, 0.205);
+}
+
+.implementation {
+    background-color: #252d3af6;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.output {
+    height: 150px;
+    border: 2px solid orangered;
+    font-size: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.child {
+    width: 25%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid orangered;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    height: 95px;
+    border: 1.5px solid orangered;
+}
+
+.two_line,
+.minus,
+.plus,
+.reverse {
+    color: rgb(179, 137, 218);
+}
+
+.equals {
+    background-color: rgb(179, 137, 218);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.one_line {
+    color: rgb(124, 79, 24);
+}

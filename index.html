@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Калькулятор</title>
+</head>
+
+<body>
+    <div class="implementation">
+        <div class="output"></div>
+        <div class="input">
+            <div class="two_line parent">
+                <div onclick="clearFunction()" class="c child">С</div>
+                <div onclick="putNumber('/')" class="division child">/</div>
+                <div onclick="putNumber('*')" class="multiplication child">*</div>
+                <div onclick="clearLast()" class="erase child">&#9003;</div>
+            </div>
+            <div class="thry_line parent">
+                <div onclick="putNumber(7)" class="seven num child">7</div>
+                <div onclick="putNumber(8)" class="eight num child">8</div>
+                <div onclick="putNumber(9)" class="ie num child">9</div>
+                <div onclick="putNumber('-')" class="minus child">-</div>
+            </div>
+            <div class="for_line parent">
+                <div onclick="putNumber(4)" class="foor num child">4</div>
+                <div onclick="putNumber(5)" class="five num child">5</div>
+                <div onclick="putNumber(6)" class="six num child">6</div>
+                <div onclick="putNumber('+')" class="plus child">+</div>
+            </div>
+            <div class="five_line parent">
+                <div onclick="putNumber(1)" class="one num child">1</div>
+                <div onclick="putNumber(2)" class="two num child">2</div>
+                <div onclick="putNumber(3)" class="thry num child">3</div>
+                <div onclick="rev()" class="reverse child">±</div>
+            </div>
+            <div class="six_line parent">
+                <div onclick="percent()" class="percent child">%</div>
+                <div onclick="putNumber(0)" class="null num child">0</div>
+                <div onclick="putNumber('.')" class="dot child">.</div>
+                <div onclick="showResult()" class="equals child" style="cursor:pointer">=</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
